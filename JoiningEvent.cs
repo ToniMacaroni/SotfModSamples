@@ -45,7 +45,7 @@ public class JoiningEvent : EventBase<JoiningEvent>
     /// <summary>
     /// Read message on the client
     /// </summary>
-    protected override void ReadMessageClient(UdpPacket packet)
+    protected override void ReadMessageClient(UdpPacket packet, BoltConnection _)
     {
         var messageType = (EMessageType)packet.ReadByte();
         switch (messageType)
