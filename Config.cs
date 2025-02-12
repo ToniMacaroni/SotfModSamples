@@ -1,7 +1,7 @@
 using RedLoader;
 using SUI;
 
-namespace EventTest;
+namespace NewItemSample;
 
 public static class Config
 {
@@ -14,7 +14,7 @@ public static class Config
 
     public static void Init()
     {
-        Category = ConfigSystem.CreateFileCategory("EventTest", "EventTest", "EventTest.cfg");
+        Category = ConfigSystem.CreateFileCategory("NewItemSample", "NewItemSample", "NewItemSample.cfg");
 
         // SomeEntry = Category.CreateEntry(
         //     "some_entry",

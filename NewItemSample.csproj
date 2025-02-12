@@ -6,8 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="com.rlabrecque.steamworks.net">
-        <HintPath>$(GameDir)\_Redloader\Game\com.rlabrecque.steamworks.net.dll</HintPath>
+      <Reference Include="GLTF">
+        <HintPath>F:\SteamLibrary\steamapps\common\Sons Of The Forest\_Redloader\net6\GLTF.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Common">
         <HintPath>$(GameDir)\_RedLoader\net6\Il2CppInterop.Common.dll</HintPath>
@@ -33,11 +33,14 @@
       <Reference Include="SonsSdk">
         <HintPath>$(GameDir)\_RedLoader\net6\SonsSdk.dll</HintPath>
       </Reference>
-      <Reference Include="udpkit">
-        <HintPath>$(GameDir)\_Redloader\Game\udpkit.dll</HintPath>
+      <Reference Include="Unity.Addressables">
+        <HintPath>F:\SteamLibrary\steamapps\common\Sons Of The Forest\_Redloader\Game\Unity.Addressables.dll</HintPath>
       </Reference>
-      <Reference Include="udpkit.common">
-        <HintPath>$(GameDir)\_Redloader\Game\udpkit.common.dll</HintPath>
+      <Reference Include="Unity.InputSystem">
+        <HintPath>F:\SteamLibrary\steamapps\common\Sons Of The Forest\_Redloader\Game\Unity.InputSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.ResourceManager">
+        <HintPath>F:\SteamLibrary\steamapps\common\Sons Of The Forest\_Redloader\Game\Unity.ResourceManager.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>$(GameDir)\_RedLoader\Game\UnityEngine.dll</HintPath>
@@ -56,7 +59,6 @@
       </Reference>
       <Reference Include="bolt.user">
         <HintPath>$(GameDir)\_RedLoader\Game\bolt.user.dll</HintPath>
-        <Aliases>BoltUser</Aliases>
       </Reference>
       <Reference Include="Sons.Construction">
         <HintPath>$(GameDir)\_RedLoader\Game\Sons.Construction.dll</HintPath>
