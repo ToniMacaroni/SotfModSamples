@@ -48,6 +48,7 @@ public class NewItemSample : SonsMod, IOnAfterSpawnReceiver
         SdkEvents.OnGameActivated.Subscribe(OnFirstGameActivation, unsubscribeOnFirstInvocation:true);
         _ = LoadObject(); // load the gltf model
         _itemTex = AssetLoaders.LoadTexture(DataPath / "itemtex.png"); // load the item image
+        _itemTex.hideFlags = HideFlags.HideAndDontSave;
     }
 
     /// <summary>
